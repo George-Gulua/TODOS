@@ -1,0 +1,40 @@
+header.header {
+    background: var(--color-black);
+}
+
+header .container{
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0px;
+}
+
+.label {
+    cursor: pointer;
+}
+
+.header h3 {
+    color: white;
+    font-size: 18px;
+}
+
+.header span {
+    color: var(--color-red);
+}
+
+.header .btn-create {
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 8px 24px;
+    transition: .3s;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+
+.header .btn-create:hover {
+    background: white;
+    color: var(--color-black);
+    border-color: var(--color-black);
+}

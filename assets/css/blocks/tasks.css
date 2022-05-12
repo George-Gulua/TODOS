@@ -1,0 +1,32 @@
+.tasks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.task-item {
+    display: inline-flex;
+    flex-basis: calc(100%/3) - 200;
+}
+
+.task-label {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 24px;
+    border-radius: 16px 0px 0px 16px;
+}
+
+.btn-edit {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--color-edit);
+    border-radius: 0px 16px 16px 0px;
+    padding: 16px 24px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-edit:hover {
+    background: var(--color-edit);
+}
